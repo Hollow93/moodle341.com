@@ -16,16 +16,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme/overridetest/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/theme/aardvark/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -45,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="renderers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme/overridetest/renderers.php">
+      <file leaf-file-name="renderers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/theme/overridetest/classes/renderers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/theme/hollow/classes/core_renderer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -128,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -143,10 +133,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>theme_aardvark_core_renderer</find>
+      <find>hollow</find>
       <find>aardvark</find>
     </findStrings>
+    <replaceStrings>
+      <replace>hollow</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\OSPanel\domains\moodle341.com</dir>
+      <dir>C:\OSPanel\domains\moodle341.com\theme\hollow</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -159,8 +154,9 @@
         <option value="$PROJECT_DIR$/theme/overridetest/classes/renderers.php" />
         <option value="$PROJECT_DIR$/theme/aardvark/classes/core_renderer.php" />
         <option value="$PROJECT_DIR$/theme/hollow/config.php" />
-        <option value="$PROJECT_DIR$/theme/hollow/classes/core_renderer.php" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/theme/hollow/classes/core_renderer.php" />
+        <option value="$PROJECT_DIR$/theme/hollow/README.txt" />
       </list>
     </option>
   </component>
@@ -174,9 +170,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="549" />
+    <option name="y" value="192" />
     <option name="width" value="1858" />
-    <option name="height" value="1083" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -206,6 +203,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moodle341.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moodle341.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moodle341.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="moodle341.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overridetest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -220,6 +249,7 @@
       <recent name="C:\OSPanel\domains\moodle341.com\theme\overridetest\classes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\moodle341.com\theme\overridetest\" />
       <recent name="C:\OSPanel\domains\moodle341.com\theme" />
       <recent name="C:\OSPanel\domains\moodle341.com\theme\overridetest" />
     </key>
@@ -293,18 +323,18 @@
       <option name="presentableId" value="Default" />
       <updated>1517854974710</updated>
       <workItem from="1517854976125" duration="1911000" />
-      <workItem from="1517940026548" duration="1522000" />
+      <workItem from="1517940026548" duration="3235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3433000" />
+    <option name="totallyTimeSpent" value="5146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1858" height="1083" extended-state="1" />
-    <editor active="true" />
+    <frame x="549" y="192" width="1858" height="677" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -391,14 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme/overridetest/classes/renderers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/overridetest/style/overridetest.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -447,30 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme/hollow/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/aardvark/classes/core_renderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/hollow/classes/core_renderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/datalib.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -506,6 +504,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/hollow/classes/core_renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/hollow/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/aardvark/classes/core_renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/overridetest/classes/renderers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
